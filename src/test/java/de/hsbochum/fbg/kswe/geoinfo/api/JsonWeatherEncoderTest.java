@@ -19,6 +19,7 @@ public class JsonWeatherEncoderTest {
         w.setRain(2.1f);
         w.setTemp(22.3f);
         w.setWindSpeed(1.3f);
+       
         String json = encoder.encode(w);
         
         //validate the JSON
